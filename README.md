@@ -22,8 +22,8 @@ for box in box:
 	news = box.div.a.img["title"]
 	newstitle = box.findAll("div",{"class":"innerbox"})
 	title_name = newstitle[0].text
-
-
+	
+	
 print("title_name: "+ title_name)
 print("news: "+ news)
 
